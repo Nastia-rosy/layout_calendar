@@ -27,12 +27,13 @@ body {
     margin-right: 1px;
     margin-bottom: 1px;
     display: none;
+    transition: 0.5s;
 
     &:hover {
       transform: translate(0, -20px);
       background-color: pink;
       cursor: pointer;
-      transition: 0.5s;
+
     }
   }
 }
