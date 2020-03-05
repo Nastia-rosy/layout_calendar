@@ -26,14 +26,14 @@ body {
     background-color: #eee;
     margin-right: 1px;
     margin-bottom: 1px;
-    display: none; }
+    display: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
     .calendar div:hover {
       -webkit-transform: translate(0, -20px);
               transform: translate(0, -20px);
       background-color: pink;
-      cursor: pointer;
-      -webkit-transition: 0.5s;
-      transition: 0.5s; }
+      cursor: pointer; }
 
 .calendar div:nth-child(1)::after {
   content: "1"; }
